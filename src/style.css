@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Corben', Georgia, Times, serif;
+  background: linear-gradient(to right,#EEEEEE,#AAAAAA);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #509BDF;
+}
+
+div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+canvas {
+  border: 1px solid #333333;
+  border-radius: 3px;
+  max-width: 31.25em;
+}
+
+input {
+  background-color: #B0B6BC;
+  padding: 3px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+#makegrey {
+  background-color: #ACABAC;
+  padding: 3px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+#makesepia {
+  background-color: #D5A750;
+  padding: 3px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+#makerain {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+  padding: 3px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  color: #EFEFEF;
+}
+
+#makeblur{
+  font-style: italic;
+  font-weight: bold;
+  padding: 3px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+#seeWindow{
+  background: #FFF;
+  font-weight: bold;
+  padding: 3px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+#message {
+  font-style: italic;
+  font-size: 14px;
+  background: #FF7F70;
+  width: 12.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+}

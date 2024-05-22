@@ -1,0 +1,30 @@
+<hr>
+<h2>See your image with filters.</h2>
+
+<div>
+
+  <p><canvas id="orgimg"></canvas></p>
+
+  <p><input type="file" id="finput" multiple="false" accept="image/*" onchange="upload()" ></p>
+  <p><input type="button" id="makegrey" value="Grayscale Filter" onclick="makeGrey()"><input type="button" id="makesepia" value="Sepia Filter" onclick="makeSepia()"><input type="button" id="makerain" value="Rainbow Filter" onclick="makeRain()"><input type="button" id="makeblur" value="Blur" onclick="makeBlur()"> <input type="button" id="seeWindow" value="Window Filter" onclick="makeWindow()"></p>
+  
+  <p><input type="button" id="resetfilters" value="Reset" onclick="resetFilters()"> <input type="button" id="clr" value="Clear" onclick="clr()"></p>
+  
+</div>
+<hr>
+<div>
+  <h2>Green Screen Generator</h2>
+  <p><canvas id="fgcan"></canvas> <canvas id="bgcan"></canvas></p>
+  <div id="message">Upload your images below</div>
+  
+</div>
+<div>
+  
+    <p>Foreground: <input type="file" id="fgfile" multiple="false" accept="image/*" onchange="loadFgImage()"><p>
+    <p>Background: <input type="file" id="bgfile" multiple="false" accept="image/*" onchange="loadBgImage()"></p>
+    <p><input type="button" id="createcomp" value="Create Composite" onclick="createcomp()"> <input type="button" id="clrcomp" value="Clear Canvases" onclick="clrcomp()"></p>
+  
+  
+</div>
+<hr>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
